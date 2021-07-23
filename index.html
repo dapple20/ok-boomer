@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <title>this is a real website</title>
+        
+    </head>
+    <body>
+        <hr>
+        <table>
+            <h1><strong>welcome!</strong></h1>
+            <hr>
+            <h2> lets you pick a random number between 1 and 100</h2>
+            <html>
+             <body>
+
+             <p id="number"></p>
+             
+<button onclick="randomnumber()">Random</button>
+ 
+<script>
+ function randomnumber(){
+
+document.getElementById("number").innerHTML = Math.floor(Math.random() * 100);
+
+}                                                                   //change the value above for diffrent results
+</script>
+<hr>
+<SCRIPT>
+function ShowAndHide() {
+    var x = document.getElementById('SectionName');
+    if (x.style.display == 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</SCRIPT>
+<BUTTON ONCLICK="ShowAndHide()">Click me</BUTTON>
+<DIV ID="SectionName" STYLE="display:none">to be comingssss</DIV>
+</body>
+
+        
+    
+</html>
